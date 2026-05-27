@@ -1,3 +1,0 @@
-/mnt/d/UART/build/CMakeFiles/uart_simulator.dir
-/mnt/d/UART/build/CMakeFiles/edit_cache.dir
-/mnt/d/UART/build/CMakeFiles/rebuild_cache.dir
