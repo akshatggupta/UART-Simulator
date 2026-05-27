@@ -7,10 +7,7 @@
 
 int main() {
 
-    Channel serialChannel(
-        0.10,
-        0.03
-    );
+    Channel serialChannel(0.10, 0.03);
 
     int baudRate = 9600;
 
@@ -37,10 +34,9 @@ int main() {
     std::cout << "===================================="
               << std::endl;
 
-    std::cout << "
-Enter message: ";
+    std::cout << "\nEnter message: ";
 
-     std::getline(std::cin, message);
+    std::getline(std::cin, message);
 
     std::thread receiver([&]() {
         deviceB.receiveMessage(message.length());

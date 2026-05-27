@@ -1,4 +1,5 @@
 #include "UARTFrame.h"
+
 #include <iostream>
 
 UARTFrame::UARTFrame(char data) {
@@ -16,6 +17,7 @@ UARTFrame::UARTFrame(char data) {
 }
 
 void UARTFrame::printFrame() const {
+
     for (int bit : bits) {
         std::cout << bit;
     }

@@ -1,4 +1,5 @@
 #include "Statistics.h"
+
 #include <iostream>
 
 int Statistics::framesSent = 0;
@@ -8,8 +9,7 @@ int Statistics::droppedFrames = 0;
 
 void Statistics::printStats() {
 
-    std::cout << "
-========== UART STATISTICS =========="
+    std::cout << "\n========== UART STATISTICS =========="
               << std::endl;
 
     std::cout << "Frames Sent      : "
