@@ -1,4 +1,4 @@
-#include "Device.h"
+#include "device.h"
 #include <iostream>
 
 Device::Device(std::string name,
